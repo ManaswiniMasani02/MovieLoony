@@ -372,7 +372,7 @@ def user_profile(user_id):
 
 # Function to display homepage content
 def homepage():
-    st.header("Welcome to Cine Suggesto!")
+    st.header("Welcome to MovieLoony Cine Suggesto!")
 
     # Load recommendations and display them
     recommendations = load_recommendations()
@@ -437,7 +437,7 @@ def main():
     st.title("Cine Suggesto : Movie Database App")
 
     # Set sidebar navigation
-    st.sidebar.image("/Users/ganeshnalam/Desktop/DBMS/Cine Suggesto (1).png")
+    st.sidebar.image("https://www.reddit.com/r/animeindian/comments/1fvc8io/suggest_me_a_absolute_cinema_anime_you_have")
     st.sidebar.header("Navigation")
 
     # Check if the user is logged in using session state
